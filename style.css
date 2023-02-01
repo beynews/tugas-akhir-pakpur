@@ -1,0 +1,88 @@
+body {
+    background-color: #dedede;
+}
+
+p {
+    z-index: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 80px;
+}
+
+h3 {
+    margin-top: -10px;
+    margin-left: 50px;
+    font-weight: bolder;
+}
+
+img {
+    margin-right: 140px;
+    width: 35px;
+    height: 35px;
+}
+
+.icon-size {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.icon-rs {
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.col-md-2 {
+    background-color: grey;
+}
+
+.sidebar {
+    font-size: 10px;
+    opacity: 5;
+}
+
+.nav-link {
+    font-size: 12px;
+}
+
+.nav-link:hover {
+    background-color: rgb(182, 182, 182);
+    border-radius: 2px;
+}
+
+.angle {
+    margin-left: 4px;
+}
+
+.search {
+    position: absolute;
+    left: 160px;
+    margin-top: -25px;
+    opacity: .75;
+    font-weight: lighter;
+}
+
+.container {
+    margin-top: -5px;
+    padding: 25px;
+
+}
+
+.form-search {
+    margin-left: 68%;
+}
+
+.pagination {
+    margin-left: 200px;
+}
+
+.table {
+    font-size: 15px;
+}
+
+.sidebar {
+    margin-left: -5px;
+}
+
+.pagination-item {
+    margin-left: -5px;
+}
