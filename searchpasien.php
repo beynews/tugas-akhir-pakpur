@@ -117,7 +117,8 @@
                     <tbody>
                         <?php
                         include "koneksi.php";
-                        $sql = "SELECT * FROM`datapasien`";
+                        $keyword = $_POST["keyword"];
+                        $sql = "SELECT * FROM datapasien WHERE noregistrasi LIKE '%$keyword%' OR namapasien LIKE  '%$keyword%'";
                         $result = $conn->query($sql);
                         if ($result->num_rows > 0)
                             // output data of each row
