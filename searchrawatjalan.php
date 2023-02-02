@@ -76,29 +76,29 @@
             <div class="container  bg-light border border-warning border-2 mb-5">
                 <a href="tambah-data-rawatjalan.php" class="btn btn-info mt-2"> <i class="fas fa-address-card"></i> Tambah Data</a>
 
-                
-                    <div class="row g-2">
-                        <div class="col-auto">
-                            <div class="row mb-3">
-                                <label for="antrian" class="col-md-4 col-form-label mt-2">Show</label>
-                                <div class="col-md-8">
-                                    <select id="antrian" class="form-select mt-2 mr-4 form-control-sm">
-                                        <option selected>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
+
+                <div class="row g-2">
+                    <div class="col-auto">
+                        <div class="row mb-3">
+                            <label for="antrian" class="col-md-4 col-form-label mt-2">Show</label>
+                            <div class="col-md-8">
+                                <select id="antrian" class="form-select mt-2 mr-4 form-control-sm">
+                                    <option selected>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="col-sm-2 mt-3 form-search">
-                            <form method="post" action="searchrawatjalan.php">
-                                <input class="me-2" type="text" name="keyword" placeholder="Cari" class="mt-2">
-                                <button type="submit" class="btn btn-primary"></button>
-                            </form>
-                        </div>
                     </div>
+                    <div class="col-sm-2 mt-3 form-search">
+                        <form method="post" action="searchrawatjalan.php">
+                            <input class="me-2" type="text" name="keyword" placeholder="Cari" class="mt-2">
+                            <button type="submit" class="btn btn-primary"></button>
+                        </form>
+                    </div>
+                </div>
                 <table class="table">
 
                     <thead>

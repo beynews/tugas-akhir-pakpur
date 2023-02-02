@@ -54,14 +54,14 @@ in"]) && $_SESSION["logged_in"] == true) {
     echo "Selamat datang, " . $_SESSION["username"] . "!";
     echo "<br><a href='logout.php'>Logout</a>";
 
-// Jika user belum login
+    // Jika user belum login
 } else {
     // Jika form login dikirim
     if (isset($_POST["username"]) && isset($_POST["password"])) {
         // Ambil input username dan password
         $email = $_POST["username"];
         $password = $_POST["password"];
-        
+
         // Verifikasi username dan password
         if (verify_credentials($email, $password)) {
             // Buat session untuk menandakan bahwa user sudah login
@@ -75,7 +75,7 @@ in"]) && $_SESSION["logged_in"] == true) {
             echo "Username atau password salah";
         }
     }
-    
+
     // Tampilkan form login
     echo "<form method='post'>";
     echo "Username: <input type='text' name='username'><br>";

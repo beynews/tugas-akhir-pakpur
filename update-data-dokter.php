@@ -35,4 +35,3 @@ $conn->close();
 
 // redirect ke halaman index
 header('location: index.php');
-?>

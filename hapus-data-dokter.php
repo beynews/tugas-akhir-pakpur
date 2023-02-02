@@ -12,7 +12,7 @@ if (!$conn) {
     die("Koneksi gagal: " . mysqli_connect_error());
 }
 
-if(isset($_GET['id'])){
+if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
     // Perintah SQL DELETE
@@ -23,8 +23,7 @@ if(isset($_GET['id'])){
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
-}
-else{
+} else {
     echo "Data tidak ditemukan";
 }
 
@@ -32,4 +31,4 @@ else{
 mysqli_close($conn);
 
 // redirect ke halaman index
-   header('location: index.php');
+header('location: index.php');

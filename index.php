@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,36 +36,36 @@
     <!-- Sidebar & dashboard -->
     <div class="row no-gutters mt-5">
         <div class="col-md-2 bg-dark mt-4  p-2 ">
-                <li class="nav-item">
-                    <a class="nav-link text-white mt-2" aria-current="page" href="index.php"><i class="fas fa-book-medical text-white mr-4"></i> KELOLA MENU</a>
-                </li>
+            <li class="nav-item">
+                <a class="nav-link text-white mt-2" aria-current="page" href="index.php"><i class="fas fa-book-medical text-white mr-4"></i> KELOLA MENU</a>
+            </li>
+            <hr class="bg-secondary">
+
+            <li class="nav-item">
+                <a class="nav-link text-white" href="index.php"><i class="fas fa-user-md"></i> DATA DOKTER</a>
                 <hr class="bg-secondary">
-
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="index.php"><i class="fas fa-user-md"></i> DATA DOKTER</a>
-                    <hr class="bg-secondary">
-                </li>
+            </li>
 
 
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="datapasien.php"><i class="far fa-address-card"></i> DATA PASIEN</a>
-                    <hr class="bg-secondary">
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="formpendaftaran.php"><i class="fas fa-file-alt"></i> FORM PENDAFTARAN</a>
-                    <hr class="bg-secondary">
-                </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="datapasien.php"><i class="far fa-address-card"></i> DATA PASIEN</a>
+                <hr class="bg-secondary">
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="formpendaftaran.php"><i class="fas fa-file-alt"></i> FORM PENDAFTARAN</a>
+                <hr class="bg-secondary">
+            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="data-rawat-jalan.php"><i class="fas fa-bed"></i> LAPORAN RAWAT JALAN</a>
-                    <hr class="bg-secondary">
-                </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="data-rawat-jalan.php"><i class="fas fa-bed"></i> LAPORAN RAWAT JALAN</a>
+                <hr class="bg-secondary">
+            </li>
 
 
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="formlogin.php"><i class="fas fa-sign-out-alt text-white "></i> LOGOUT</a>
-                    <hr class="bg-secondary">
-                </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="formlogin.php"><i class="fas fa-sign-out-alt text-white "></i> LOGOUT</a>
+                <hr class="bg-secondary">
+            </li>
 
             </ul>
         </div>
@@ -75,29 +76,29 @@
             </div>
             <div class="container  bg-light border border-warning border-2 mb-5">
                 <a href="tambah-data-dokter.php" class="btn btn-info mt-2"> <i class="fas fa-address-card"></i> Tambah Data</a>
-                    <div class="row g-2">
-                        <div class="col-auto">
-                            <div class="row mb-3">
-                                <label for="antrian" class="col-md-4 col-form-label mt-2">Show</label>
-                                <div class="col-md-8">
-                                    <select id="antrian" class="form-select mt-2 mr-4 form-control-sm">
-                                        <option selected>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
+                <div class="row g-2">
+                    <div class="col-auto">
+                        <div class="row mb-3">
+                            <label for="antrian" class="col-md-4 col-form-label mt-2">Show</label>
+                            <div class="col-md-8">
+                                <select id="antrian" class="form-select mt-2 mr-4 form-control-sm">
+                                    <option selected>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="col-sm-2 mt-3 form-search">
-                            <form method="post" action="search.php">
-                                <input class="me-2" type="text" name="keyword" placeholder="Cari" class="mt-2">
-                                <button type="submit" class="btn btn-primary"></button>
-                            </form>
-                        </div>
-
                     </div>
+                    <div class="col-sm-2 mt-3 form-search">
+                        <form method="post" action="search.php">
+                            <input class="me-2" type="text" name="keyword" placeholder="Cari" class="mt-2">
+                            <button type="submit" class="btn btn-primary"></button>
+                        </form>
+                    </div>
+
+                </div>
                 <table class="table">
 
                     <thead>
